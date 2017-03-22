@@ -2,7 +2,8 @@
 title: "590_Final"
 author: "Chris Gates"
 date: "March 22, 2017"
-output: html_document
+output:
+  md_document: default
 ---
 
 590 Project Introduction
