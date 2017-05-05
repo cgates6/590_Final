@@ -1456,5 +1456,10 @@ CM_Data <- rbind.data.frame(CM_S1_1A=CM_S1_1A, CM_S1_1B=CM_S1_1B, CM_S1_1C=CM_S1
 
 Mean_Eq_Contact_Angle_CM <- mean(CM_Data[["CAOeq"]])
 
+print(CM_Data, digits = NULL,
+      quote = FALSE, right = TRUE, row.names = TRUE)
+
+Mean_Eq_Contact_Angle_CM
+
 write.csv(CM_Data,"C:/Users/dell user/Desktop/CM_Data.csv")
 ```
