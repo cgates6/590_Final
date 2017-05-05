@@ -3,7 +3,8 @@ title: "590_Final"
 author: "Chris Gates"
 date: "March 22, 2017"
 output:
-  md_document: default
+  md_document: 
+    variant: markdown_github
 ---
 
 ## 590 Project Introduction
