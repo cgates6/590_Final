@@ -1,0 +1,3 @@
+"0","#now make this plot as a rose diagram"
+"0","rose_plot <- bar_graph+coord_polar()"
+"0","print(rose_plot)"

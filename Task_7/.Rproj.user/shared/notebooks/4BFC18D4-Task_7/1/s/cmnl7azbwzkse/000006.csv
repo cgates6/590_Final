@@ -1,0 +1,4 @@
+"0","#make a bar graph of this information"
+"0","bar_graph <-ggplot(median, aes(x=wind_dir, y=speed, fill=origin))+"
+"0","  facet_wrap(~origin)+geom_bar(stat=""identity"")"
+"0","print(bar_graph)"

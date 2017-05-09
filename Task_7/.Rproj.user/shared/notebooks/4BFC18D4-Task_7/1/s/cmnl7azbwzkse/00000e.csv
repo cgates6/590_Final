@@ -1,0 +1,7 @@
+"0","#Question 4: Make a wide-format data frame that displays the number of flights that leave Newark (""EWR"") airport each month, from each airline."
+"0","#Split-Apply-Combine to SPLIT the data into groups based on airlines and month and filter to only use EWR data, APPLY the mean function to the data, and COMBINE the data into a wise format table."
+"0","EWR <- nycflights13::flights%>% #define the data set to pipe into the next step"
+"0","  filter(origin ==""EWR"") %>% #filter the planes that left EWR"
+"0","  group_by(carrier, month) %>% #Split into groups based on month and carrier"
+"0","  summarize(n=n()) #applies a count function to the groups"
+"0","EWR #look at the table"

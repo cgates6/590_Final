@@ -1,0 +1,4 @@
+"0","#Question 5:Using the babynames dataset:"
+"0","#Identify the ten most common male and female names in 2014. Make a plot of their frequency (prop) since 1880. (This may require two separate piped statements)."
+"0","#preview the data"
+"0","head(babynames)"

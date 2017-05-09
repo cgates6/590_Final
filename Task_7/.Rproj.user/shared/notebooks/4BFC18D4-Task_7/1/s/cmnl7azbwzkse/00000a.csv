@@ -1,0 +1,3 @@
+"0","#Question 3:Make a table with two columns: airline name (not carrier code) and median distance flown from JFK airport. The table should be arranged in order of decreasing mean flight distance."
+"0","#look at the data"
+"0","nycflights13::flights"

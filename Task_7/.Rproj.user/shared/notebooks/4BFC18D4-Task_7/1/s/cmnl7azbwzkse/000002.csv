@@ -1,0 +1,21 @@
+"0","library(nycflights13)"
+"0","library(tidyverse)"
+"2","Loading tidyverse: ggplot2
+Loading tidyverse: tibble
+Loading tidyverse: tidyr
+Loading tidyverse: readr
+Loading tidyverse: purrr
+Loading tidyverse: dplyr
+"
+"2","Conflicts with tidy packages ---------------------------------------------------------------------
+"
+"2","filter(): dplyr, stats
+lag():    dplyr, stats
+"
+"0","library(babynames)"
+"0","weather <- data.frame(nycflights13::weather)"
+"0","library(ggplot2)"
+"0","#Question 1:Determine whether there are any clear outliers in wind speed (wind_speed) that should be rejected. If so, filter those bad point(s) and proceed."
+"0","#plot the data so that we can visualize wind speed for outliers"
+"0","ggplot(weather, aes(x=weather$time_hour, y=weather$wind_speed))+"
+"0","  geom_point()"

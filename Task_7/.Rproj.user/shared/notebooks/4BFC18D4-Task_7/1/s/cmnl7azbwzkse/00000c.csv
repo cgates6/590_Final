@@ -1,0 +1,6 @@
+"0","airline_flights <- nycflights13::flights %>% #data set to pipe into next step"
+"0","  left_join(nycflights13::airlines, by=""carrier"") %>% #join the data frames using carrier"
+"0","  filter(origin ==""JFK"") %>% #filter for planes leaving JFK"
+"0","  arrange(desc(distance)) %>% #arrange in order of decreasing mean flight distance"
+"0","  select(name,distance) #only keep the two columns"
+"0","head(airline_flights) #preview the table"

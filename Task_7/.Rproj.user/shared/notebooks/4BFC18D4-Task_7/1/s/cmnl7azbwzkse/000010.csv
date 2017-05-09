@@ -1,0 +1,4 @@
+"0","#convert this table to a wide format using the spread function"
+"0","#specify that we want to split the count data, the ""n"" column"
+"0","EWR_month <- spread(EWR, key=month, n)"
+"0","EWR_month"

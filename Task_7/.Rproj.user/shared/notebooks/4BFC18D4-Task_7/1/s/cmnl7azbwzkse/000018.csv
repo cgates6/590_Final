@@ -1,0 +1,7 @@
+"0","#Question 6:Make a single table of the 26th through 29th most common girls names in the year 1896, 1942, and 2016"
+"0","girl_names<-babynames %>%"
+"0","  filter(sex==""F"", year==1896|year==1942|year==2014) %>%"
+"0","  group_by(year) %>%"
+"0","  mutate(rank = dense_rank(desc(n))) %>% #add a column that assigns a rank to the count column "
+"0","  filter((rank > 25) & (rank < 30)) #only rank 26, 27, 28, and 29 are displayed"
+"0","girl_names"
