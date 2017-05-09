@@ -1,0 +1,4 @@
+"0","CM_Data <- rbind.data.frame(CM_S1_1A=CM_S1_1A, CM_S1_1B=CM_S1_1B, CM_S1_1C=CM_S1_1C, CM_S1_2A=CM_S1_2A, CM_S1_2B=CM_S1_2B, CM_S1_2C=CM_S1_2C, CM_S2_1A=CM_S2_1A, CM_S2_1B=CM_S2_1B, CM_S2_1C=CM_S2_1C, CM_S2_2A=CM_S2_2A, CM_S2_2B=CM_S2_2B, CM_S2_2C=CM_S2_2C)"
+"0","Mean_Eq_Adv_Contact_Angle_CM <- mean(CM_Data[[""CAOeq""]])"
+"0","print(CM_Data, digits = NULL,"
+"0","      quote = FALSE, right = TRUE, row.names = TRUE)"
